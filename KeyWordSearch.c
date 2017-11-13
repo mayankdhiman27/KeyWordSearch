@@ -77,6 +77,7 @@ int main(int agrc,char *argv[])
 	printf("Enter keyword to search\n");
 	scanf("%s",&keyword);
 	
+	//1st argument for open should be path of text file
 	fd=open("/home/dmayank/Documents/ashish_n.txt",O_RDWR);
 
 	printf("size of b= %d\n",sizeof(b1));
